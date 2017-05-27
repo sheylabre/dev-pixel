@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$("#banner").css({"height":$(window).height() + "px"});
+
 
 	var flag = false;
 	var scroll;
@@ -12,7 +12,7 @@ $(document).ready(function(){
 			if(!flag){
 				$("#logo").css({"margin-top": "0", "width": "130px","height":"80px"});
 
-				$("nav").css({"background-color": "#3C3C3C"});
+				$("nav").css({"background-color": "#52575D"});
 				flag = true;
 			}
 		}else{

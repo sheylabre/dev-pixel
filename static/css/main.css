@@ -6,7 +6,7 @@
 
 section#banner{
     width: 100%;
-    height: auto;
+    height: 500px;
     background-image: url(../img/.png);
     background-attachment: contain;
     background-position: center;
@@ -34,6 +34,10 @@ ul{
     display: block;
     float: left;
     list-style: none;
+}
+
+.nav-wrapper .row {
+    margin-bottom: 0px !important;
 }
 
 ul a{
@@ -65,3 +69,16 @@ footer {
 .page-footer .footer-copyright {
     background-color: #52575D;
 }
+
+/* Código porordenar*/
+.mision {
+    background-color: #52575D;
+    color: white;
+    padding:3%;
+    margin:5% 0 ;
+}
+
+
+
+
+
